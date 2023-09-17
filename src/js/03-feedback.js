@@ -38,4 +38,5 @@ function handleSubmit(evt) {
     console.dir(formSubmitObj);
     evt.currentTarget.reset();
     localStorage.removeItem(FORM_STATE_KEY);
+    formSubmitObj = {};
 }
